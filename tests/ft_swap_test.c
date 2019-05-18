@@ -6,8 +6,8 @@ int main()
     int y = 6;
 
     printf("Before the swap x:%d; y:%d",x,y);
-    ft_swap(x, y);
-    printf("After the swap x:%d; y%d",x, y);
+    ft_swap(&x, &y);
+    printf("After the swap x:%d; y:%d",x, y);
 }
 
 /*
