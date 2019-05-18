@@ -1,3 +1,5 @@
+#include "../includes/libft.h"
+
 size_t ft_strlen(char *str)
 {
     int i;

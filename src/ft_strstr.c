@@ -1,10 +1,16 @@
+#include "../includes/libft.h"
+
 char *ft_strstr(char const *haystack, char const *needle)
 {
     int h;
     int n;
+    int len;
 
     h = 0;
-    if (ft_strlen(needle) == 0)
+    len = 0;
+    while (needle[len] != '\0')
+        len++;
+    if (len == 0)
         return ((char *)haystack);
     while (haystack[h] != 0)
     {

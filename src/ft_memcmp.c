@@ -1,6 +1,8 @@
+#include "../includes/libft.h"
+
 int ft_memcmp(const void *str1, const void *str2, size_t n)
 {
-    int i;
+    unsigned int i;
     int s1_total;
     int s2_total;
 

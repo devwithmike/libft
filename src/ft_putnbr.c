@@ -1,3 +1,5 @@
+#include "../includes/libft.h"
+
 void ft_putnbr(int nb)
 {
     if (nb < 0)

@@ -1,3 +1,5 @@
+#include "../includes/libft.h"
+
 char *ft_strdup(char *src)
 {
     int i;
