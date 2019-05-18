@@ -9,7 +9,7 @@ all: $(NAME)
 $(NAME):
 	gcc -Wall -Werror -Wextra -c $(SRCS)
 	ar rc $(NAME) $(OUTPUT)
-	ranlib$(NAME)
+	ranlib $(NAME)
 
 clean:
 	/bin/rm -f $(OUTPUT)

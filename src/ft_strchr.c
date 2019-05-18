@@ -7,8 +7,9 @@ char *ft_strchr(const char *str, int c)
     {
         if (str[i] == c)
         {
-            return &str[i];
+            return &(*((char *)str + i));
         }
         i++;
     }
+    return (0);
 }
