@@ -45,5 +45,6 @@ void	ft_putnbr_fd(int n, int fd);
 char	*ft_strnew(size_t size);
 void	ft_memdel(void **ap);
 void	ft_strdel(char **as);
+void	ft_strclr(char *s);
 
 #endif
