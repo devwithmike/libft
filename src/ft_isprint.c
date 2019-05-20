@@ -6,14 +6,14 @@
 /*   By: mimeyer <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/05/19 11:51:11 by mimeyer           #+#    #+#             */
-/*   Updated: 2019/05/20 13:27:52 by mimeyer          ###   ########.fr       */
+/*   Updated: 2019/05/20 16:01:02 by mimeyer          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-int ft_isprint(int c)
+int		ft_isprint(int c)
 {
-    if ((c >= 32) && (c <= 126))
-        return (1);
-    else
-        return (0);
+	if ((c >= 32) && (c <= 126))
+		return (1);
+	else
+		return (0);
 }

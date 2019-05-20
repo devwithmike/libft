@@ -6,14 +6,14 @@
 /*   By: mimeyer <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/05/19 11:50:58 by mimeyer           #+#    #+#             */
-/*   Updated: 2019/05/20 13:23:33 by mimeyer          ###   ########.fr       */
+/*   Updated: 2019/05/20 15:59:41 by mimeyer          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-int ft_isdigit(int ch)
+int		ft_isdigit(int ch)
 {
-    if ((ch > 47) && (ch < 58))
-        return (1);
-    else
-        return (0);
+	if ((ch > 47) && (ch < 58))
+		return (1);
+	else
+		return (0);
 }

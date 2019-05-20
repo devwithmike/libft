@@ -6,7 +6,7 @@
 /*   By: mimeyer <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/05/19 16:19:29 by mimeyer           #+#    #+#             */
-/*   Updated: 2019/05/19 16:28:14 by mimeyer          ###   ########.fr       */
+/*   Updated: 2019/05/20 16:02:41 by mimeyer          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,9 +14,9 @@
 
 void	*ft_memalloc(size_t size)
 {
-    void    *ptr;
+	void	*ptr;
 
-    ptr = (void *)malloc(sizeof(ptr) * size);
-    ft_bzero(ptr, sizeof(ptr) * size);
-    return (ptr);
+	ptr = (void *)malloc(sizeof(ptr) * size);
+	ft_bzero(ptr, sizeof(ptr) * size);
+	return (ptr);
 }
