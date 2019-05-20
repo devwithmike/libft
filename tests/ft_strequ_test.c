@@ -1,25 +1,34 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_memmove.c                                       :+:      :+:    :+:   */
+/*   ft_strequ_test.c                                   :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: mimeyer <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2019/05/19 11:52:06 by mimeyer           #+#    #+#             */
-/*   Updated: 2019/05/20 08:53:43 by mimeyer          ###   ########.fr       */
+/*   Created: 2019/05/20 08:42:48 by mimeyer           #+#    #+#             */
+/*   Updated: 2019/05/20 08:48:26 by mimeyer          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../includes/libft.h"
+#include <stdio.h>
+#include <string.h>
 
-void *ft_memmove(void *dest, const void *src, size_t n)
+int main()
 {
-    char    *dest2;
+	char str1[15];
+	char str2[15];
+	int ret;
 
-    dest2 = (char*)malloc(sizeof(char) * n + 1);
-    dest2[n + 1] = '\0';
-    memcpy(dest2, src, n);
-    memcpy(dest, dest2, n);
-    free(dest2);
-    return (dest);
+	strcpy(str1, "abcdef");
+	strcpy(str2, "Absdkjfh");
+
+	ret =  ft_strequ(str1, str2);
+
+	if (ret == 0)
+		printf("different");
+	else if (ret == 1)
+		printf("same");
+	else
+		printf("error");
+	return (0);
 }
