@@ -1,3 +1,5 @@
+#include "../includes/libft.h"
+
 int main () {
    ft_putchar('d');
    

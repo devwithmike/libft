@@ -1,6 +1,5 @@
 #include <stdio.h>
-#include <string.h>
-
+#include "../includes/libft.h"
 /*
 * ft_putstr comes here
 */

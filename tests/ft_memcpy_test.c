@@ -1,9 +1,5 @@
 #include <stdio.h>
-#include <string.h>
-
-/*
-* ft_memcpy comes here
-*/
+#include "../includes/libft.h"
 
 int main () {
    const char src[50] = "http://www.tutorialspoint.com";

@@ -1,5 +1,6 @@
-#include <stdio.h>
+#include "../includes/libft.h"
 #include <string.h>
+#include <stdio.h>
 
 int main () {
    char str1[15];

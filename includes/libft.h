@@ -1,10 +1,22 @@
-#ifndef LIBFT_H
-#define LIBFT_H
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   libft.h                                            :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: mimeyer <marvin@42.fr>                     +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2019/05/21 10:19:43 by mimeyer           #+#    #+#             */
+/*   Updated: 2019/05/21 10:39:20 by mimeyer          ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
 
-#include <unistd.h>
-#include <stdlib.h>
-#include <errno.h>
-#include <string.h>
+#ifndef LIBFT_H
+# define LIBFT_H
+
+# include <unistd.h>
+# include <stdlib.h>
+# include <errno.h>
+# include <string.h>
 
 void	ft_putchar(char c);
 void	ft_putstr(char *str);
@@ -23,6 +35,7 @@ char	*ft_strstr(char const *haystack, char const *needle);
 int		ft_isalnum(int ch);
 int		ft_isalpha(int ch);
 int		ft_isdigit(int ch);
+int		ft_isascii(int c);
 int		ft_isprint(int c);
 char	*ft_strchr(const char *str, int c);
 char	*ft_strncat(char *dest, const char *src, size_t n);
@@ -49,7 +62,7 @@ void	ft_strclr(char *s);
 void	ft_striter(char *s, void (*f)(char *));
 void	ft_striteri(char *s, void (*f)(unsigned int, char *));
 char	*ft_strmap(char const *s, char (*f)(char));
-char	*ft_strmapi(char const *s, char (*f)(unsigned int , char));
+char	*ft_strmapi(char const *s, char (*f)(unsigned int, char));
 int		ft_strequ(char const *s1, char const *s2);
 int		ft_strnequ(char const *s1, char const *s2, size_t n);
 

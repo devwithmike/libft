@@ -1,10 +1,13 @@
+#include "../includes/libft.h"
+#include <stdio.h>
+
 int main(void)
 {
     const char *largestring = "Foo Bar Baz";
 	const char *smallstring = "Bar";
 	char	*ptr;
 
-	ptr = ft_strnstr(largestring, smallstring, 11);
+	ptr = strnstr(largestring, smallstring, 11);
     printf("%s", ptr);
 }
 
@@ -15,3 +18,4 @@ output: Bar Baz
 
 len = 4
 output: (null)
+*/

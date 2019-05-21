@@ -1,13 +1,8 @@
 #include <stdio.h>
 #include <ctype.h>
+#include "../includes/libft.h"
 
-int ft_isalnum(int ch);
-
-/*
-*   ft_isalnum comes here
-*/
-
-int main () {
+int main() {
    int var1 = 'd';
    int var2 = '2';
    int var3 = '\t';
@@ -36,6 +31,7 @@ int main () {
    } else {
       printf("var4 = |%c| is not alphanumeric\n", var4 );
    }
+   printf("dog");
    return(0);
 }
 

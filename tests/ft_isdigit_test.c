@@ -1,11 +1,6 @@
 #include <stdio.h>
 #include <ctype.h>
-
-int ft_isdigit(int ch);
-
-/*
-* ft_isdigit
-*/
+#include "../includes/libft.h"
 
 int main () {
    int var1 = 'h';

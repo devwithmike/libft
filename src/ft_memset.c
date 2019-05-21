@@ -6,7 +6,7 @@
 /*   By: mimeyer <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/05/19 11:52:17 by mimeyer           #+#    #+#             */
-/*   Updated: 2019/05/21 08:20:57 by mimeyer          ###   ########.fr       */
+/*   Updated: 2019/05/21 12:29:54 by mimeyer          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -22,5 +22,5 @@ void	*ft_memset(void *str, int c, size_t n)
 		*((char *)str + i) = c;
 		i++;
 	}
-	return (0);
+	return (str);
 }

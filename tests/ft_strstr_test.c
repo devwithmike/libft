@@ -1,6 +1,5 @@
 #include <stdio.h>
-#include <string.h>
-
+#include "../includes/libft.h"
 
 int main () {
    const char haystack[20] = "TutorialsPoint";

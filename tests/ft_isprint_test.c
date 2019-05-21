@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <ctype.h>
+#include "../includes/libft.h"
 
 int main () {
    int var1 = 'k';
@@ -18,7 +19,6 @@ int main () {
    } else {
       printf("var2 = |%c| can't be printed\n", var2 );
    }
-   
    if( ft_isprint(var3) ) {
       printf("var3 = |%c| can be printed\n", var3 );
    } else {

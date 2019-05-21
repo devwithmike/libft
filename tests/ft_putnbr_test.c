@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include "../includes/libft.h"
 
 int main () {
    int ch;
