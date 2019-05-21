@@ -6,22 +6,20 @@
 /*   By: mimeyer <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/05/19 11:52:45 by mimeyer           #+#    #+#             */
-/*   Updated: 2019/05/19 11:52:47 by mimeyer          ###   ########.fr       */
+/*   Updated: 2019/05/21 08:29:03 by mimeyer          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "../includes/libft.h"
 
-void ft_putnbr(int nb)
+void	ft_putnbr(int nb)
 {
-    if (nb < 0)
-    {
-        nb *= -1;
-        ft_putchar('-');
-    }
-    if (nb > 9)
-    {
-        ft_putnbr(nb / 10);
-    }
-    ft_putchar(nb % 10 + 48);
+	if (nb < 0)
+	{
+		nb *= -1;
+		ft_putchar('-');
+	}
+	if (nb > 9)
+		ft_putnbr(nb / 10);
+	ft_putchar(nb % 10 + 48);
 }

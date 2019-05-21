@@ -6,22 +6,20 @@
 /*   By: mimeyer <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/05/19 11:53:44 by mimeyer           #+#    #+#             */
-/*   Updated: 2019/05/19 11:53:46 by mimeyer          ###   ########.fr       */
+/*   Updated: 2019/05/21 08:37:32 by mimeyer          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-char *ft_strchr(const char *str, int c)
+char	*ft_strchr(const char *str, int c)
 {
-    int i;
+	int i;
 
-    i = 0;
-    while (str[i] != '\0')
-    {
-        if (str[i] == c)
-        {
-            return &(*((char *)str + i));
-        }
-        i++;
-    }
-    return (0);
+	i = 0;
+	while (str[i] != '\0')
+	{
+		if (str[i] == c)
+			return (&(*((char *)str + i)));
+		i++;
+	}
+	return (0);
 }

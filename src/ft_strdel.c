@@ -6,7 +6,7 @@
 /*   By: mimeyer <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/05/19 16:00:48 by mimeyer           #+#    #+#             */
-/*   Updated: 2019/05/19 16:08:12 by mimeyer          ###   ########.fr       */
+/*   Updated: 2019/05/21 08:44:35 by mimeyer          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,6 +14,6 @@
 
 void	ft_strdel(char **as)
 {
-    if (as)
-    	ft_memdel((void **)as);
+	if (as)
+		ft_memdel((void **)as);
 }

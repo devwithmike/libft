@@ -6,25 +6,19 @@
 /*   By: mimeyer <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/05/19 11:58:21 by mimeyer           #+#    #+#             */
-/*   Updated: 2019/05/19 11:58:23 by mimeyer          ###   ########.fr       */
+/*   Updated: 2019/05/21 10:05:28 by mimeyer          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-int ft_toupper(int ch)
+int	ft_toupper(int ch)
 {
-    if (((ch > 64) && (ch < 91)) || ((ch > 96) && (ch < 123)))
-    {
-        if ((ch > 96) && (ch < 123))
-        {
-            return ch - 32;
-        }
-        else
-        {
-            return ch;
-        }
-    }
-    else
-    {
-        return ch;
-    }
+	if (((ch > 64) && (ch < 91)) || ((ch > 96) && (ch < 123)))
+	{
+		if ((ch > 96) && (ch < 123))
+			return (ch - 32);
+		else
+			return (ch);
+	}
+	else
+		return (ch);
 }

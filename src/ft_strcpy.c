@@ -6,11 +6,11 @@
 /*   By: mimeyer <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/05/19 11:54:41 by mimeyer           #+#    #+#             */
-/*   Updated: 2019/05/19 11:54:42 by mimeyer          ###   ########.fr       */
+/*   Updated: 2019/05/21 08:43:35 by mimeyer          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-char *ft_strcpy(char *dest, char *src)
+char	*ft_strcpy(char *dest, char *src)
 {
 	int len;
 	int i;
@@ -18,9 +18,7 @@ char *ft_strcpy(char *dest, char *src)
 	i = 0;
 	len = 0;
 	while (src[len] != '\0')
-	{
 		len++;
-	}
 	len++;
 	while (i < len)
 	{

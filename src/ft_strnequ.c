@@ -6,7 +6,7 @@
 /*   By: mimeyer <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/05/20 08:59:55 by mimeyer           #+#    #+#             */
-/*   Updated: 2019/05/20 09:27:26 by mimeyer          ###   ########.fr       */
+/*   Updated: 2019/05/21 09:27:11 by mimeyer          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,7 +23,7 @@ int		ft_strnequ(char const *s1, char const *s2, size_t n)
 			return (0);
 		i++;
 		if (i == n)
-			break;
+			break ;
 	}
 	return (1);
 }

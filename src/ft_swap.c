@@ -6,15 +6,15 @@
 /*   By: mimeyer <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/05/19 11:58:01 by mimeyer           #+#    #+#             */
-/*   Updated: 2019/05/20 11:08:10 by mimeyer          ###   ########.fr       */
+/*   Updated: 2019/05/21 10:00:59 by mimeyer          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-void ft_swap(int *a, int *b)
+void	ft_swap(int *a, int *b)
 {
-    int tmp_a;
+	int tmp_a;
 
-    tmp_a = *a;
-    *a = *b;
-    *b = tmp_a;
+	tmp_a = *a;
+	*a = *b;
+	*b = tmp_a;
 }

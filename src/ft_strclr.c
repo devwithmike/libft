@@ -6,7 +6,7 @@
 /*   By: mimeyer <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/05/19 16:29:55 by mimeyer           #+#    #+#             */
-/*   Updated: 2019/05/19 16:33:38 by mimeyer          ###   ########.fr       */
+/*   Updated: 2019/05/21 08:38:12 by mimeyer          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,8 +14,8 @@
 
 void	ft_strclr(char *s)
 {
-    int len;
+	int len;
 
-    len = ft_strlen(s);
-    memset(s, '\0', len);
+	len = ft_strlen(s);
+	memset(s, '\0', len);
 }
