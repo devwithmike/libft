@@ -6,12 +6,12 @@
 /*   By: mimeyer <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/05/20 08:42:48 by mimeyer           #+#    #+#             */
-/*   Updated: 2019/05/20 08:48:26 by mimeyer          ###   ########.fr       */
+/*   Updated: 2019/05/21 13:00:56 by mimeyer          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <stdio.h>
-#include <string.h>
+#include "../includes/libft.h"
 
 int main()
 {

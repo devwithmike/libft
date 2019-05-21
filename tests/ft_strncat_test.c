@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <string.h>
+#include "../includes/libft.h"
 
 int main () {
    char src[50], dest[50];

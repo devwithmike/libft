@@ -6,7 +6,7 @@
 /*   By: mimeyer <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/05/20 08:59:55 by mimeyer           #+#    #+#             */
-/*   Updated: 2019/05/21 09:27:11 by mimeyer          ###   ########.fr       */
+/*   Updated: 2019/05/21 13:11:26 by mimeyer          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,7 +14,7 @@
 
 int		ft_strnequ(char const *s1, char const *s2, size_t n)
 {
-	unsigned int i;
+	size_t i;
 
 	i = 0;
 	while ((s1[i] != '\0') || (s2[i] != '\0'))

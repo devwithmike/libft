@@ -6,11 +6,12 @@
 /*   By: mimeyer <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/05/19 22:23:49 by mimeyer           #+#    #+#             */
-/*   Updated: 2019/05/19 22:24:05 by mimeyer          ###   ########.fr       */
+/*   Updated: 2019/05/21 13:02:45 by mimeyer          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <stdio.h>
+#include "../includes/libft.h"
 
 void	ft_striter(char *s, void (*f)(char *))
 {

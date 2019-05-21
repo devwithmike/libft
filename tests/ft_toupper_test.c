@@ -1,9 +1,9 @@
 #include <stdio.h>
 #include <ctype.h>
+#include "../includes/libft.h"
 
 int main () {
    int i = 0;
-   char c;
    char str[] = "tutorials point";
 	
    while( str[i] ) {
