@@ -6,9 +6,11 @@
 /*   By: mimeyer <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/05/19 11:53:44 by mimeyer           #+#    #+#             */
-/*   Updated: 2019/05/21 13:43:58 by mimeyer          ###   ########.fr       */
+/*   Updated: 2019/05/22 14:58:30 by mimeyer          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+#include "../includes/libft.h"
 
 char	*ft_strchr(const char *str, int c)
 {
@@ -18,8 +20,10 @@ char	*ft_strchr(const char *str, int c)
 	while (str[i] != '\0')
 	{
 		if (str[i] == c)
-			return (&(*((char *)str + i)));
-		i++;
+			return ((char*)str + i);
+		++i;
 	}
-	return (0);
+	if (c != '\0')
+		return (NULL);
+	return ((char*)str + i);
 }
