@@ -1,42 +1,23 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_itoa.c                                          :+:      :+:    :+:   */
+/*   ft_foreach.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: mimeyer <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2019/05/21 23:06:08 by mimeyer           #+#    #+#             */
-/*   Updated: 2019/05/22 09:28:34 by mimeyer          ###   ########.fr       */
+/*   Created: 2019/05/22 09:09:42 by mimeyer           #+#    #+#             */
+/*   Updated: 2019/05/22 09:23:51 by mimeyer          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../includes/libft.h"
-
-char	*ft_itoa(int nb)
+void	ft_foreach(int *tab, int length, void (*f)(int))
 {
-	char	*str;
-	long	n;
-	int		i;
+	int	i;
 
-	n = nb;
-	i = ft_numlen(n);
-	if (!(str = (char*)malloc(sizeof(char) * (i + 1))))
-		return (NULL);
-	str[i--] = '\0';
-	if (n == 0)
+	i = 0;
+	while (i < length)
 	{
-		str[0] = 48;
-		return (str);
+		f(tab[i]);
+		i++;
 	}
-	if (n < 0)
-	{
-		str[0] = '-';
-		n = n * -1;
-	}
-	while (n > 0)
-	{
-		str[i--] = 48 + (n % 10);
-		n = n / 10;
-	}
-	return (str);
 }

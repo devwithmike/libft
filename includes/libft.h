@@ -6,7 +6,7 @@
 /*   By: mimeyer <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/05/21 10:19:43 by mimeyer           #+#    #+#             */
-/*   Updated: 2019/05/21 23:34:32 by mimeyer          ###   ########.fr       */
+/*   Updated: 2019/05/22 09:16:04 by mimeyer          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -70,5 +70,9 @@ char	*ft_strjoin(char const *s1, char const *s2);
 char	*ft_strtrim(char const *s);
 char	**ft_strsplit(char const *s, char c);
 char	*ft_itoa(int nb);
+int		ft_numlen(long nb);
+size_t	ft_wordlen(const char *s, char c);
+size_t	ft_wordcount(const char *s, char c);
+void	ft_foreach(int *tab, int length, void(*f)(int));
 
 #endif
