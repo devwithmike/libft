@@ -15,7 +15,7 @@ int main(void)
 {
     char buffer[80];
 
-    memset(buffer, '\0', 80);
+    ft_memset(buffer, '\0', 80);
     ft_memccpy(buffer, msg, ':', 80);
 
     printf("%s\n", buffer);
