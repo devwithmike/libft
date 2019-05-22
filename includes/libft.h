@@ -6,7 +6,7 @@
 /*   By: mimeyer <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/05/21 10:19:43 by mimeyer           #+#    #+#             */
-/*   Updated: 2019/05/22 16:41:13 by mimeyer          ###   ########.fr       */
+/*   Updated: 2019/05/22 17:18:59 by mimeyer          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -83,5 +83,8 @@ size_t				ft_wordcount(const char *s, char c);
 void				ft_foreach(int *tab, int length, void (*f)(int));
 void				*ft_memchr(const void *s, int c, size_t n);
 t_list				*ft_lstnew(void const *content, size_t content_size);
+void				ft_lstdelone(t_list **alst, void (*del)(void *, size_t));
+void				ft_lstdel(t_list **alst, void (*del)(void *, size_t));
+void				ft_lstadd(T-list **alst, t_list *new);
 
 #endif
