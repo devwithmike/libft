@@ -6,7 +6,7 @@
 /*   By: mimeyer <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/05/19 11:51:22 by mimeyer           #+#    #+#             */
-/*   Updated: 2019/05/20 16:04:40 by mimeyer          ###   ########.fr       */
+/*   Updated: 2019/05/22 15:11:09 by mimeyer          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -27,5 +27,5 @@ void	*ft_memccpy(void *dest, const void *src, int c, size_t n)
 			break ;
 		}
 	}
-	return (0);
+	return (dest);
 }
