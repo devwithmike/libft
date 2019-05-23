@@ -6,7 +6,7 @@
 /*   By: mimeyer <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/05/19 16:19:29 by mimeyer           #+#    #+#             */
-/*   Updated: 2019/05/22 10:56:43 by mimeyer          ###   ########.fr       */
+/*   Updated: 2019/05/23 08:34:01 by mimeyer          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,10 +14,10 @@
 
 void	*ft_memalloc(size_t size)
 {
-	void	*ptr;
+	void *mem;
 
-	if (!(ptr = (void *)malloc(sizeof(ptr) * size)))
+	if (!(mem = malloc(size)))
 		return (NULL);
-	ft_bzero(ptr, sizeof(ptr) * size);
-	return (ptr);
+	ft_memset(mem, 0, size);
+	return (mem);
 }
