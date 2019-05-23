@@ -6,7 +6,7 @@
 /*   By: mimeyer <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/05/19 11:52:45 by mimeyer           #+#    #+#             */
-/*   Updated: 2019/05/21 08:29:03 by mimeyer          ###   ########.fr       */
+/*   Updated: 2019/05/23 11:42:42 by mimeyer          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,12 +14,5 @@
 
 void	ft_putnbr(int nb)
 {
-	if (nb < 0)
-	{
-		nb *= -1;
-		ft_putchar('-');
-	}
-	if (nb > 9)
-		ft_putnbr(nb / 10);
-	ft_putchar(nb % 10 + 48);
+	ft_putnbr_fd(nb, 1);
 }
