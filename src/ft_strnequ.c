@@ -6,7 +6,7 @@
 /*   By: mimeyer <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/05/20 08:59:55 by mimeyer           #+#    #+#             */
-/*   Updated: 2019/05/23 11:25:49 by mimeyer          ###   ########.fr       */
+/*   Updated: 2019/05/24 10:00:55 by mimeyer          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,6 +16,8 @@ int		ft_strnequ(char const *s1, char const *s2, size_t n)
 {
 	size_t i;
 
+	if (s1 == NULL || s2 == NULL)
+		return (0);
 	i = 0;
 	if (n == 0)
 		return (1);

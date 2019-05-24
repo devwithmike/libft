@@ -6,14 +6,18 @@
 /*   By: mimeyer <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/05/20 08:11:03 by mimeyer           #+#    #+#             */
-/*   Updated: 2019/05/21 08:50:23 by mimeyer          ###   ########.fr       */
+/*   Updated: 2019/05/24 10:01:31 by mimeyer          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+#include "../includes/libft.h"
 
 int		ft_strequ(char const *s1, char const *s2)
 {
 	int	i;
 
+	if (s1 == NULL || s2 == NULL)
+		return (0);
 	i = 0;
 	while ((s1[i] != '\0') || (s2[i] != '\0'))
 	{

@@ -6,7 +6,7 @@
 /*   By: mimeyer <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/05/21 17:02:22 by mimeyer           #+#    #+#             */
-/*   Updated: 2019/05/21 17:26:49 by mimeyer          ###   ########.fr       */
+/*   Updated: 2019/05/24 10:00:11 by mimeyer          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,6 +17,8 @@ char	*ft_strjoin(char const *s1, char const *s2)
 	char	*result;
 	int		i;
 
+	if (s1 == NULL || s2 == NULL)
+		return (NULL);
 	i = 0;
 	if (!(result = ft_strnew(ft_strlen(s1) + ft_strlen(s2) + 1)))
 	{
