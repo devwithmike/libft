@@ -6,7 +6,7 @@
 /*   By: mimeyer <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/05/19 11:51:53 by mimeyer           #+#    #+#             */
-/*   Updated: 2019/05/23 08:33:35 by mimeyer          ###   ########.fr       */
+/*   Updated: 2019/05/24 09:14:48 by mimeyer          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,12 +18,12 @@ void				*ft_memcpy(void *str1, const void *str2, size_t n)
 	unsigned char		*dest;
 	unsigned const char	*str;
 
+	if (str1 == NULL && str2 == NULL)
+		return (NULL);
 	i = 0;
 	dest = (unsigned char *)str1;
 	str = (unsigned char *)str2;
 	str = str2;
-	if (dest == NULL || str == NULL)
-		return (NULL);
 	while (i < n)
 	{
 		*((char *)dest + i) = *((char *)str + i);
