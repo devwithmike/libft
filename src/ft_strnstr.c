@@ -6,7 +6,7 @@
 /*   By: mimeyer <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/05/19 11:57:01 by mimeyer           #+#    #+#             */
-/*   Updated: 2019/05/24 08:59:27 by mimeyer          ###   ########.fr       */
+/*   Updated: 2019/05/27 09:11:20 by mimeyer          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,7 +21,7 @@ char	*ft_strnstr(const char *s1, const char *s2, size_t len)
 	len2 = ft_strlen(s2);
 	while (*s1 != '\0' && len-- >= len2)
 	{
-		if (*s1 == *s2 && ft_memcmp(s1, s2, len2) == 0)
+		if (*s1 == *s2 && ft_strncmp(s1, s2, len2) == 0)
 			return ((char *)s1);
 		s1++;
 	}

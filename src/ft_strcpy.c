@@ -6,11 +6,11 @@
 /*   By: mimeyer <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/05/19 11:54:41 by mimeyer           #+#    #+#             */
-/*   Updated: 2019/05/21 08:43:35 by mimeyer          ###   ########.fr       */
+/*   Updated: 2019/05/27 08:57:22 by mimeyer          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-char	*ft_strcpy(char *dest, char *src)
+char	*ft_strcpy(char *dest, const char *src)
 {
 	int len;
 	int i;

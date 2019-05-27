@@ -6,11 +6,11 @@
 /*   By: mimeyer <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/05/19 11:38:54 by mimeyer           #+#    #+#             */
-/*   Updated: 2019/05/21 17:27:16 by mimeyer          ###   ########.fr       */
+/*   Updated: 2019/05/27 08:08:25 by mimeyer          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-int		ft_atoi(char *str)
+int		ft_atoi(const char *str)
 {
 	int neg;
 	int i;
