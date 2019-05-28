@@ -6,11 +6,11 @@
 /*   By: mimeyer <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/05/19 14:12:30 by mimeyer           #+#    #+#             */
-/*   Updated: 2019/05/21 08:21:56 by mimeyer          ###   ########.fr       */
+/*   Updated: 2019/05/28 11:11:44 by mimeyer          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../includes/libft.h"
+#include "libft.h"
 
 void	ft_putchar_fd(char c, int fd)
 {

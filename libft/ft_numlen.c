@@ -6,11 +6,11 @@
 /*   By: mimeyer <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/05/22 08:23:26 by mimeyer           #+#    #+#             */
-/*   Updated: 2019/05/22 08:24:01 by mimeyer          ###   ########.fr       */
+/*   Updated: 2019/05/28 11:10:53 by mimeyer          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../includes/libft.h"
+#include "libft.h"
 
 int		ft_numlen(long nb)
 {

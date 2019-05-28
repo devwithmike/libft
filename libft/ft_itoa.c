@@ -6,11 +6,11 @@
 /*   By: mimeyer <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/05/21 23:06:08 by mimeyer           #+#    #+#             */
-/*   Updated: 2019/05/24 09:52:25 by mimeyer          ###   ########.fr       */
+/*   Updated: 2019/05/28 10:56:42 by mimeyer          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../includes/libft.h"
+#include "libft.h"
 
 char	*ft_itoa(int nb)
 {

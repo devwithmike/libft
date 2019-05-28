@@ -6,11 +6,11 @@
 /*   By: mimeyer <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/05/22 08:19:34 by mimeyer           #+#    #+#             */
-/*   Updated: 2019/05/22 08:20:37 by mimeyer          ###   ########.fr       */
+/*   Updated: 2019/05/28 11:27:16 by mimeyer          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../includes/libft.h"
+#include "libft.h"
 
 size_t	ft_wordcount(const char *s, char c)
 {

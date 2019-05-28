@@ -6,11 +6,11 @@
 /*   By: mimeyer <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/05/19 11:52:45 by mimeyer           #+#    #+#             */
-/*   Updated: 2019/05/23 11:42:42 by mimeyer          ###   ########.fr       */
+/*   Updated: 2019/05/28 11:12:17 by mimeyer          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../includes/libft.h"
+#include "libft.h"
 
 void	ft_putnbr(int nb)
 {

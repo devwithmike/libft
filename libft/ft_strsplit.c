@@ -6,11 +6,11 @@
 /*   By: mimeyer <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/05/21 23:15:49 by mimeyer           #+#    #+#             */
-/*   Updated: 2019/05/22 08:42:38 by mimeyer          ###   ########.fr       */
+/*   Updated: 2019/05/28 11:25:07 by mimeyer          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../includes/libft.h"
+#include "libft.h"
 
 char	**ft_strsplit(char const *s, char c)
 {

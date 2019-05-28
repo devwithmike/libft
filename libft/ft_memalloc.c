@@ -6,11 +6,11 @@
 /*   By: mimeyer <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/05/19 16:19:29 by mimeyer           #+#    #+#             */
-/*   Updated: 2019/05/27 08:23:39 by mimeyer          ###   ########.fr       */
+/*   Updated: 2019/05/28 11:05:20 by mimeyer          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../includes/libft.h"
+#include "libft.h"
 
 void	*ft_memalloc(size_t size)
 {

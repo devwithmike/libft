@@ -6,11 +6,11 @@
 /*   By: mimeyer <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/05/19 16:00:48 by mimeyer           #+#    #+#             */
-/*   Updated: 2019/05/21 08:44:35 by mimeyer          ###   ########.fr       */
+/*   Updated: 2019/05/28 11:17:46 by mimeyer          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../includes/libft.h"
+#include "libft.h"
 
 void	ft_strdel(char **as)
 {
