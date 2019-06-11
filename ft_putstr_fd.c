@@ -6,7 +6,7 @@
 /*   By: mimeyer <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/05/19 14:16:56 by mimeyer           #+#    #+#             */
-/*   Updated: 2019/06/11 08:23:44 by mimeyer          ###   ########.fr       */
+/*   Updated: 2019/06/11 12:42:30 by mimeyer          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,9 +24,5 @@ void	ft_putstr_fd(char const *s, int fd)
 			ft_putchar_fd(s[i], fd);
 			i++;
 		}
-	}
-	else
-	{
-		write(fd, "(null)\n", 7);
 	}
 }
