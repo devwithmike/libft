@@ -4,6 +4,6 @@
 
 int main(void)
 {
-	puts(NULL);
+	ft_putnbr(ft_strnequ("salut", "salut", 50));
 	return (0);
 }
