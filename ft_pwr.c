@@ -6,16 +6,14 @@
 /*   By: mimeyer <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/06/11 14:28:56 by mimeyer           #+#    #+#             */
-/*   Updated: 2019/06/11 15:07:05 by mimeyer          ###   ########.fr       */
+/*   Updated: 2019/06/11 15:30:19 by mimeyer          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
-
-size_t	ft_pwr(size_t base, size_t exponent)
+int		ft_pwr(int base, int exponent)
 {
-	size_t i;
-	size_t result;
+	int i;
+	int result;
 
 	i = 1;
 	result = base;
