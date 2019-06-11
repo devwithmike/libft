@@ -2,7 +2,8 @@ NAME = libft.a
 
 SRCS = 	ft_atoi.c \
 		ft_bzero.c \
-		ft_foreach.c \
+		ft_foreachi.c \
+		ft_foreachs.c \
 		ft_isalnum.c \
 		ft_isalpha.c \
 		ft_isascii.c \
@@ -63,13 +64,16 @@ SRCS = 	ft_atoi.c \
 		ft_tolower.c \
 		ft_toupper.c \
 		ft_wordcount.c \
-		ft_wordlen.c
+		ft_wordlen.c \
+		ft_pwr.c \
+		ft_sqrt.c
 
 INC = libft.h
 
 OUTPUT = ft_atoi.o \
 		 ft_bzero.o \
-		 ft_foreach.o \
+		 ft_foreachi.o \
+		 ft_foreachs.o \
 		 ft_isalnum.o \
 		 ft_isalpha.o \
 		 ft_isascii.o \
@@ -130,7 +134,9 @@ OUTPUT = ft_atoi.o \
 		 ft_tolower.o \
 		 ft_toupper.o \
 		 ft_wordcount.o \
-		 ft_wordlen.o
+		 ft_wordlen.o \
+		 ft_pwr.o \
+		 ft_sqrt.o
 
 all: $(NAME)
 

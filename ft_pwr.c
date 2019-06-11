@@ -1,23 +1,34 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_foreach.c                                       :+:      :+:    :+:   */
+/*   ft_pwr.c                                           :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: mimeyer <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2019/05/22 09:09:42 by mimeyer           #+#    #+#             */
-/*   Updated: 2019/05/22 09:23:51 by mimeyer          ###   ########.fr       */
+/*   Created: 2019/06/11 14:28:56 by mimeyer           #+#    #+#             */
+/*   Updated: 2019/06/11 15:07:05 by mimeyer          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-void	ft_foreach(int *tab, int length, void (*f)(int))
-{
-	int	i;
+#include "libft.h"
 
-	i = 0;
-	while (i < length)
+size_t	ft_pwr(size_t base, size_t exponent)
+{
+	size_t i;
+	size_t result;
+
+	i = 1;
+	result = base;
+	if (exponent == 0)
+		return (1);
+	if (exponent == 1)
+		return (result);
+	if (exponent < 0)
+		return (0);
+	while (i < exponent)
 	{
-		f(tab[i]);
+		result *= base;
 		i++;
 	}
+	return (result);
 }

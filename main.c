@@ -2,8 +2,9 @@
 #include <string.h>
 #include <stdio.h>
 
-int main(void)
+int main(int ac, char **av)
 {
-	ft_putnbr(ft_strnequ("salut", "salut", 50));
+	(void)ac;
+	ft_putnbr(ft_sqrt(ft_atoi(av[1])));
 	return (0);
 }

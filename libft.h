@@ -6,7 +6,7 @@
 /*   By: mimeyer <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/05/21 10:19:43 by mimeyer           #+#    #+#             */
-/*   Updated: 2019/05/28 09:04:50 by mimeyer          ###   ########.fr       */
+/*   Updated: 2019/06/11 15:05:24 by mimeyer          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -80,7 +80,8 @@ char				*ft_itoa(int nb);
 int					ft_numlen(long nb);
 size_t				ft_wordlen(const char *s, char c);
 size_t				ft_wordcount(const char *s, char c);
-void				ft_foreach(int *tab, int length, void (*f)(int));
+void				ft_foreachi(int *tab, int length, void (*f)(int));
+void				ft_foreachs(char *tab, int length, void (*f)(char));
 void				*ft_memchr(const void *s, int c, size_t n);
 t_list				*ft_lstnew(void const *content, size_t content_size);
 void				ft_lstdelone(t_list **alst, void (*del)(void *, size_t));
@@ -89,5 +90,7 @@ void				ft_lstadd(t_list **alst, t_list *new);
 void				ft_lstiter(t_list *lst, void (*f)(t_list *elem));
 t_list				*ft_lstmap(t_list *lst, t_list *(*f)(t_list *elem));
 void				*ft_memalloc(size_t size);
+size_t				ft_pwr(size_t base, size_t exponent);
+size_t				ft_sqrt(size_t num);
 
 #endif

@@ -1,40 +1,29 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_strstr.c                                        :+:      :+:    :+:   */
+/*   ft_sqrt.c                                          :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: mimeyer <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2019/05/19 11:57:51 by mimeyer           #+#    #+#             */
-/*   Updated: 2019/06/11 14:35:42 by mimeyer          ###   ########.fr       */
+/*   Created: 2019/06/11 14:58:31 by mimeyer           #+#    #+#             */
+/*   Updated: 2019/06/11 15:07:30 by mimeyer          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-char	*ft_strstr(char const *haystack, char const *needle)
+size_t	ft_sqrt(size_t num)
 {
-	int h;
-	int n;
-	int len;
+	size_t i;
 
-	h = 0;
-	len = 0;
-	while (needle[len] != '\0')
-		len++;
-	if (len == 0)
-		return ((char *)haystack);
-	while (haystack[h] != '\0')
+	if (num <= 0)
+		return (0);
+	i = 1;
+	while ((i * i) <= num)
 	{
-		n = 0;
-		while (needle[n] == haystack[h + n] && haystack[h + n] != '\0'
-				&& needle[n] != '\0')
-		{
-			if (needle[n + 1] == '\0')
-				return ((char *)haystack + h);
-			n++;
-		}
-		h++;
+		if ((i * i) == num)
+			return (i);
+		i++;
 	}
-	return (NULL);
+	return (0);
 }
