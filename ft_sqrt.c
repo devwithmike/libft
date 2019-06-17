@@ -6,15 +6,15 @@
 /*   By: mimeyer <marvin@42.fr>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/06/11 14:58:31 by mimeyer           #+#    #+#             */
-/*   Updated: 2019/06/11 15:07:30 by mimeyer          ###   ########.fr       */
+/*   Updated: 2019/06/17 09:02:28 by mimeyer          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-size_t	ft_sqrt(size_t num)
+long	ft_sqrt(long num)
 {
-	size_t i;
+	long i;
 
 	if (num <= 0)
 		return (0);

@@ -14,7 +14,6 @@ SRCS = 	ft_atoi.c \
 		ft_lstdel.c \
 		ft_lstdelone.c \
 		ft_lstiter.c \
-		ft_lstmap.c \
 		ft_lstnew.c \
 		ft_memalloc.c \
 		ft_memccpy.c \
@@ -84,7 +83,6 @@ OUTPUT = ft_atoi.o \
 		 ft_lstdel.o \
 		 ft_lstdelone.o \
 		 ft_lstiter.o \
-		 ft_lstmap.o \
 		 ft_lstnew.o \
 		 ft_memalloc.o \
 		 ft_memccpy.o \
