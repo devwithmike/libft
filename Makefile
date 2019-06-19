@@ -2,8 +2,7 @@ NAME = libft.a
 
 SRCS = 	ft_atoi.c \
 		ft_bzero.c \
-		ft_foreachi.c \
-		ft_foreachs.c \
+		ft_foreach.c \
 		ft_isalnum.c \
 		ft_isalpha.c \
 		ft_isascii.c \
