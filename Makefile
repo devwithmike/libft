@@ -70,8 +70,7 @@ INC = libft.h
 
 OUTPUT = ft_atoi.o \
 		 ft_bzero.o \
-		 ft_foreachi.o \
-		 ft_foreachs.o \
+		 ft_foreach.o \
 		 ft_isalnum.o \
 		 ft_isalpha.o \
 		 ft_isascii.o \
