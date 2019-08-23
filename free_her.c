@@ -1,18 +1,23 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_putstr.c                                        :+:      :+:    :+:   */
+/*   free_her.c                                         :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: mimeyer <mimeyer@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2019/05/19 11:52:56 by mimeyer           #+#    #+#             */
-/*   Updated: 2019/08/23 08:43:11 by mimeyer          ###   ########.fr       */
+/*   Created: 2019/08/23 08:58:35 by mimeyer           #+#    #+#             */
+/*   Updated: 2019/08/23 08:58:45 by mimeyer          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-void	ft_putstr(char *str)
+void	free_her(char **str)
 {
-	ft_putstr_fd(str, 1);
+	int	i;
+
+	i = 0;
+	while (str[i])
+		ft_strdel(&str[i++]);
+	free(str);
 }
