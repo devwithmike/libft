@@ -67,7 +67,8 @@ SRC_NAME =	ft_atoi.c \
 			ft_wordlen.c \
 			ft_pwr.c \
 			ft_sqrt.c \
-			get_next_line.c
+			get_next_line.c \
+			free_her.c
 
 SRC = $(addprefix $(SRC_PATH), $(SRC_NAME))
 
