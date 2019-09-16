@@ -6,7 +6,7 @@
 /*   By: mimeyer <mimeyer@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/05/21 10:19:43 by mimeyer           #+#    #+#             */
-/*   Updated: 2019/08/23 08:58:59 by mimeyer          ###   ########.fr       */
+/*   Updated: 2019/09/16 15:47:10 by mimeyer          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -95,5 +95,6 @@ int					ft_pwr(size_t base, size_t exponent);
 long				ft_sqrt(long num);
 int					get_next_line(const int fd, char **line);
 void				free_her(char **str);
+char				*join_her(char **str, char *delim);
 
 #endif
